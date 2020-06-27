@@ -1,5 +1,5 @@
 <h2>About</h2>
-This is a React Native mobile application that was built as part of the Udacity React Nanodegree Program. It is a recreation of "Flash Cards" app. It allow users to create decks and store question & answer. It is built with redux store and local storage. This application is tested on ios platform. 
+This is a React Native mobile application that works on both ios and android platform. It is a recreation of "Flash Cards" app. It allow users to create decks and store flashcards in each deck. It is built with redux store and local storage. Daily notifications are send at 8:00 pm every day to encourage user to keep the progress!
 
 
 <h2>Getting Started</h2>
