@@ -15,7 +15,9 @@ import {white, purple } from "./utils/colors";
 import Constants from "expo-constants";
 import { setLocalNotification } from "./utils/helpers";
 
-
+/*
+ * Display status bar
+ */ 
 function AppStatusBar({ backgroundColor, ...props }) {
     return (
         <View style={{ backgroundColor, height: Constants.statusBarHeight }}>
@@ -24,6 +26,9 @@ function AppStatusBar({ backgroundColor, ...props }) {
     );
 }
 
+/*
+ * Coose tab based on platform
+ */ 
 const Tab = Platform.OS === 'ios'
     ? createBottomTabNavigator()
     : createMaterialTopTabNavigator()

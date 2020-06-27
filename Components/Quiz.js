@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { connect } from "react-redux";
-import { clearLocalNotification, setLocalNotification } from "../utils/helpers";
+//import { clearLocalNotification, setLocalNotification } from "../utils/helpers";
 import {  black, purple } from "../utils/colors";
 import ScoreBoard from "./ScoreBoard";
 
